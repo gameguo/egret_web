@@ -93,12 +93,12 @@ class Main extends egret.DisplayObjectContainer {
      * Create a game scene
      */
     private createGameScene() {
-        let sky = this.createBitmapByName("printer_bg_jpg");
-        this.addChild(sky);
+        // let sky = this.createBitmapByName("printer_bg_jpg");
+        // this.addChild(sky);
         let stageW = this.stage.stageWidth;
         let stageH = this.stage.stageHeight;
-        sky.width = stageW;
-        sky.height = stageH;
+        // sky.width = stageW;
+        // sky.height = stageH;
 
         let topMask = new egret.Shape();
         topMask.graphics.beginFill(0x000000, 0.5);
